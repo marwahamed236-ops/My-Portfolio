@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<meta name="description"
+    content="Marwa Hamed - Front-End Developer Portfolio. Explore my skills, education, certificates and projects.">
+<meta name="author" content="Marwa Hamed">
+
+<title>Marwa Hamed | Front-End Developer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Loading Screen -->
+<div class="loader" id="loader">
+    <div class="loader-logo">M</div>
+    <p>Loading Portfolio...</p>
+</div>
+
+<!-- Scroll Progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span>M</span>
+            Marwa
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#certificates" class="nav-link">Certificates</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="assests\Marwa Hamed - Front-End Developer - Resume (1).pdf"
+            class="cv-btn" download> Show CV </a>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero section" id="home">
+
+        <div class="hero-glow glow-one"></div>
+        <div class="hero-glow glow-two"></div>
+
+        <div class="container hero-container">
+
+            <div class="hero-content reveal">
+
+                <span class="hero-label">
+                    <span class="status-dot"></span>
+                    Available for opportunities
+                </span>
+
+                <h1>
+                    Hi, I'm
+                    <span class="highlight">Marwa Hamed</span>
+                </h1>
+
+                <h2>
+                    I'm a
+                    <span id="typing"></span>
+                </h2>
+
+                <p>
+                    I create responsive and user-friendly web experiences
+                    with clean code, thoughtful design, and a continuous
+                    passion for learning.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn magnetic">
+                        Explore My Work
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn magnetic">
+                        Let's Connect
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/marwa-hamed-0a4600365/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                        class="social-icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/"
+                        aria-label="GitHub"
+                        class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <!-- Email -->
+                    <a href="mailto:marwahamed236@gmail.com"
+                        aria-label="Email"
+                        class="social-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image reveal">
+
+                <div class="image-orbit orbit-one"></div>
+                <div class="image-orbit orbit-two"></div>
+
+                <div class="image-wrapper">
+
+                    <div class="image-decoration decoration-one"></div>
+                    <div class="image-decoration decoration-two"></div>
+
+                    <img src="assests/photo_2026-08-03_12-16-27.jpg"
+                        alt="Marwa Hamed - Front-End Developer">
+
+                </div>
+
+                <div class="floating-card card-html">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+
+                <div class="floating-card card-js">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+                <span class="section-tag">About Me</span>
+                <h2>Turning ideas into <span>web experiences.</span></h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+
+                    <p class="large-text">
+                        I'm a Computer Science student and aspiring
+                        Front-End Developer who enjoys turning ideas into
+                        clean, responsive and engaging interfaces.
+                    </p>
+
+                    <p>
+                        I'm passionate about learning new technologies,
+                        improving my problem-solving skills, and building
+                        web applications that are both functional and
+                        enjoyable to use.
+                    </p>
+
+                    <p>
+                        As a self-learner, I continuously explore modern
+                        front-end technologies and look forward to gaining
+                        real-world experience through internships and
+                        meaningful projects.
+                    </p>
+
+                </div>
+
+
+                <div class="about-cards reveal">
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Front-End Developer</h3>
+
+                        <p>
+                            Building responsive and user-focused interfaces.
+                        </p>
+                    </div>
+
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+
+                        <h3>Continuous Learner</h3>
+
+                        <p>
+                            Always exploring new technologies and ideas.
+                        </p>
+                    </div>
+
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                        </div>
+
+                        <h3>Problem Solver</h3>
+
+                        <p>
+                            Enjoying challenges and finding practical solutions.
+                        </p>
+                    </div>
+
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+
+                        <h3>Team Player</h3>
+
+                        <p>
+                            Valuing communication and collaboration.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills section" id="skills">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+                <span class="section-tag">My Skills</span>
+                <h2>Tools I use to <span>build.</span></h2>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 90%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 88%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 78%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <span>VueJS</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 75%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <span>Responsive Design</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 88%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 70%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-solid fa-comments"></i>
+                        <span>Communication</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 90%"></span>
+                    </div>
+                </div>
+
+
+                <div class="skill-card reveal">
+                    <div class="skill-top">
+                        <i class="fa-solid fa-people-group"></i>
+                        <span>Collaboration</span>
+                    </div>
+
+                    <div class="skill-bar">
+                        <span style="--progress: 90%"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section class="education section" id="education">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+                <span class="section-tag">Education</span>
+                <h2>My learning <span>journey.</span></h2>
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            2024 — 2028
+                        </span>
+
+                        <h3>
+                            Faculty of Computers & Artificial Intelligence
+                        </h3>
+
+                        <h4>
+                            Damietta University
+                        </h4>
+
+                        <p>
+                            Computer Science
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATES ================= -->
+
+    <section class="certificates section" id="certificates">
+
+        <div class="container">
+
+            <div class="section-heading reveal">
+                <span class="section-tag">Certificates</span>
+                <h2>Milestones in my <span>learning.</span></h2>
+            </div>
+
+
+            <div class="certificate-card reveal">
+
+                <div class="certificate-icon">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+
+                <div class="certificate-info">
+
+                    <span class="certificate-date">
+                        2018 — Present
+                    </span>
+
+                    <h3>
+                        Certificate of Completion — Summer Training
+                    </h3>
+
+                    <p>
+                        Information Technology Institute (ITI)
+                    </p>
+
+                </div>
+
+                <div class="certificate-arrow">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+<section class="projects section" id="projects">
+
+```
+<div class="container">
+
+    <div class="section-heading reveal">
+        <span class="section-tag">Projects</span>
+        <h2>Things I'm <span>building.</span></h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+
+            <div class="project-number">01</div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+            </div>
+
+            <span class="project-type">
+                Personal Project
+            </span>
+
+            <h3>Project One</h3>
+
+            <p>
+                A responsive web project focused on creating
+                a clean, modern and user-friendly experience.
+            </p>
+
+            <div class="project-actions">
+
+    <button
+        class="project-btn"
+        onclick="openProject('project1')">
+
+        View Project
+        <i class="fa-solid fa-arrow-right"></i>
+
+    </button>
+
+    <a
+        href="https://github.com/marwahamed236-ops/Project-1"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-btn github-btn">
+
+        GitHub
+        <i class="fa-brands fa-github"></i>
+
+    </a>
+
+    </div>
+        </article>
+
+
+        <!-- Project 2 -->
+        <article class="project-card reveal">
+
+            <div class="project-number">02</div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-code"></i>
+            </div>
+
+            <span class="project-type">
+                Academic Project
+            </span>
+
+            <h3>Project Two</h3>
+
+            <p>
+                A front-end project demonstrating responsive
+                layouts and interactive components.
+            </p>
+
+            <div class="project-actions">
+
+    <button
+        class="project-btn"
+        onclick="openProject('project2')">
+
+        View Project
+        <i class="fa-solid fa-arrow-right"></i>
+
+    </button>
+
+    <a
+        href="https://github.com/marwahamed236-ops/Project-2"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-btn github-btn">
+
+        GitHub
+        <i class="fa-brands fa-github"></i>
+
+    </a>
+
+    </div>
+        </article>
+
+
+        <!-- Project 3 -->
+        <article class="project-card reveal">
+
+            <div class="project-number">03</div>
+
+            <div class="project-icon">
+                <i class="fa-solid fa-palette"></i>
+            </div>
+
+            <span class="project-type">
+                Personal Project
+            </span>
+
+            <h3>Project Three</h3>
+
+            <p>
+                A creative web experience designed with a focus
+                on usability and visual details.
+            </p>
+
+            <div class="project-actions">
+
+    <button
+        class="project-btn"
+        onclick="openProject('project3')">
+
+        View Project
+        <i class="fa-solid fa-arrow-right"></i>
+
+    </button>
+
+    <a
+        href="https://github.com/marwahamed236-ops/Project-3"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-btn github-btn">
+
+        GitHub
+        <i class="fa-brands fa-github"></i>
+
+    </a>
+
+    </div>
+
+        </article>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- ================= PROJECT MODAL ================= -->
+
+<div class="project-modal" id="projectModal">
+
+```
+<div class="modal-overlay" onclick="closeProject()"></div>
+
+<div class="modal-content">
+
+    <button
+        class="modal-close"
+        onclick="closeProject()"
+        aria-label="Close project preview">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+    <div class="modal-header">
+
+        <span class="section-tag" id="modalType">
+            Project
+        </span>
+
+        <h2 id="modalTitle">
+            Project Preview
+        </h2>
+
+        <p id="modalDescription">
+            Project screenshots
+        </p>
+
+    </div>
+
+    <div class="project-images" id="projectImages"></div>
+
+</div>
+```
+
+</div>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section" id="contact">
+
+        <div class="container">
+
+            <div class="contact-box reveal">
+
+                <div class="contact-content">
+
+                    <span class="section-tag">
+                        Get In Touch
+                    </span>
+
+                    <h2>
+                        Let's create something
+                        <span>meaningful.</span>
+                    </h2>
+
+                    <p>
+                        I'm open to internships, learning opportunities,
+                        collaborations and real-world experiences.
+                    </p>
+
+                    <a href="mailto:marwahamed236@gmail.com"
+                        class="btn primary-btn magnetic">
+                        Send Me an Email
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="contact-details">
+
+                    <!-- Email -->
+                    <a href="mailto:marwahamed236@gmail.com"
+                        class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>marwahamed236@gmail.com</strong>
+                        </div>
+
+                    </a>
+
+
+                    <!-- Phone -->
+                    <a href="tel:01030951627"
+                        class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <span>Phone</span>
+                            <strong>01030951627</strong>
+                        </div>
+
+                    </a>
+
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/marwa-hamed-0a4600365/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+
+                        <div>
+                            <span>LinkedIn</span>
+                            <strong>Connect with me</strong>
+                        </div>
+
+                    </a>
+
+
+                    <!-- GitHub
+                    <a href="#"
+                        class="contact-item">
+
+                        <div class="contact-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <div>
+                            <span>GitHub</span>
+                            <strong>View my work</strong>
+                        </div>
+
+                    </a> -->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="container footer-container">
+
+        <div class="footer-logo">
+            M<span>.</span>
+        </div>
+
+        <p>
+            Designed & built by Marwa Hamed
+        </p>
+
+        <p>
+            © <span id="year"></span> Marwa Hamed
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Back To Top -->
+
+<button class="back-top" id="backTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

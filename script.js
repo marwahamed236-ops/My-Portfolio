@@ -433,7 +433,34 @@ const projects = {
             "assests/Pro3/pro33.png",
             "assests/Pro3/pro34.png"
         ]
+    },
+
+    project4: {
+        title: "Project Four",
+        type: "Personal Project",
+        description:
+            "A creative web space exploration platform designed with a focus on usability and visual details.",
+
+        images: [
+            "assests/Pro4/pro41.png",
+            "assests/Pro4/pro42.png",
+            "assests/Pro4/pro43.png",
+            "assests/Pro4/pro44.png",
+            "assests/Pro4/pro45.png",
+            "assests/Pro4/pro46.png",
+            "assests/Pro4/pro47.png",
+            "assests/Pro4/pro48.png",           
+            "assests/Pro4/pro49.png",
+            "assests/Pro4/pro410.png",
+            "assests/Pro4/pro411.png",
+            "assests/Pro4/pro412.png",
+            "assests/Pro4/pro413.png",
+            "assests/Pro4/pro414.png",
+            "assests/Pro4/pro415.png",
+            "assests/Pro4/pro416.png",
+        ]
     }
+
 
 };
 

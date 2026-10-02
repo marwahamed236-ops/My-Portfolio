@@ -1612,3 +1612,20 @@ overflow: hidden;
 .github-btn:hover {
     background: #6C63FF;
 }
+
+
+#title{
+    /* background: linear-gradient(to right, #a73333, #ebbaba);
+    background-clip: text;
+    -webkit-background-clip: text; */
+    font-size: 40px;
+    margin: 30px;
+    color:#a67c52;
+    /* -webkit-text-fill-color: transparent; */
+}
+
+#details{
+    color:#c5b8ae;
+    font-size: 30px;
+    margin-left: 30px;
+}

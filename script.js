@@ -437,7 +437,7 @@ const projects = {
 
     project4: {
         title: "Project Four",
-        type: "Team Project",
+        type: "TEAM Project",
         description:
             "A creative web space exploration platform designed with a focus on usability and visual details.",
 
